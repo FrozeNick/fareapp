@@ -5,7 +5,7 @@ export default function Layout() {
         <div>
             <Navbar bg="dark" variant="dark" expand="lg">
                 <Container>
-                    <Link className="navbar-brand" to="/"><img className="position-relative" style={{top: -2}} width={24} src="logo.png"/> FareDeal</Link>
+                    <Link className="navbar-brand" to="/"><img alt="Faredeal" className="position-relative" style={{top: -2}} width={24} src="logo.png"/> FareDeal</Link>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="me-auto">

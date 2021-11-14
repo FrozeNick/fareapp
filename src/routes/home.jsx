@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import { Container } from "react-bootstrap";
 import { useState } from 'react';
 import { Helmet } from 'react-helmet'
@@ -43,7 +42,7 @@ export default function Home() {
                             <div className="card position-relative shadow-sm border-0" style={{overflow: 'hidden'}}>
                                 <div className="position-absolute w-100 h-100" style={{zIndex: 0}}>
                                     <div className="offer-bg-gradient position-absolute"></div>
-                                    <img className="w-100" src={offer.imageUrl} />
+                                    <img alt={offer.inboundId} className="w-100" src={offer.imageUrl} />
                                 </div>
 
                                 <div className="card-body text-white my-5 py-5" style={{zIndex: 1}}>
