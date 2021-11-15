@@ -1,8 +1,8 @@
 $dark: #04061c;
+
 body {
   background-color: #eeefef !important;
 }
-
 
 .offer-bg-gradient {
   background: linear-gradient(0deg, #13141f 0%, rgba(0, 0, 0, 0.3981967787) 100%);
@@ -142,6 +142,5 @@ $utilities: (
     )
   ), ( responsive: true ))
 );
-
 
 @import "~bootstrap/scss/bootstrap";

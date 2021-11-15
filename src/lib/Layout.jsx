@@ -1,5 +1,6 @@
 import { Outlet, Link } from "react-router-dom";
 import { Navbar, Container, Nav } from "react-bootstrap";
+
 export default function Layout() {
     return (
         <div className="p-0 bg-light shadow-sm container">
@@ -21,4 +22,4 @@ export default function Layout() {
             </main>
         </div>
       );
-  }
+}

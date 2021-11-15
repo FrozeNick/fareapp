@@ -1,8 +1,4 @@
-import { Navbar, Container, Nav } from "react-bootstrap";
-import { Outlet, Link } from "react-router-dom";
-
 export default function DealCard({offer}) {
-    console.log(offer);
     return (
         <div className="col-12 col-md-6 col-lg-4 col-xl-3 mb-4">
           <div className="card position-relative shadow-sm border-0" style={{overflow: 'hidden'}}>
@@ -19,4 +15,4 @@ export default function DealCard({offer}) {
           </div>
     </div>
     )
-  }
+}
