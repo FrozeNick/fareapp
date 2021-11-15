@@ -3,7 +3,7 @@ import { useState } from 'react';
 import { Helmet } from 'react-helmet'
 import { useEffect } from "react";
 
-const TITLE = 'FareDeal - Auctions on cheap flights';
+const TITLE = 'FareDeal - Book Cheap Flights';
 
 export default function Home() {
     const [offers, setOffers] = useState([]);
@@ -30,7 +30,7 @@ export default function Home() {
             <Helmet>
                 <title>{TITLE}</title>
             </Helmet>
-            <Container>
+            <Container className="my-4">
                 <div className="d-flex align-items-center my-3">
                     <h4>Live Deals</h4>
                     <div className="ms-auto btn btn-outline-primary rounded-pill px-4">{offers.length} Results</div>
