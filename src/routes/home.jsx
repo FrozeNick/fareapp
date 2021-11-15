@@ -28,7 +28,7 @@ export default function Home() {
                 setOffers(data)
             });
         }
-    }, [])
+    }, [offers.length])
 
     return (
         <>
